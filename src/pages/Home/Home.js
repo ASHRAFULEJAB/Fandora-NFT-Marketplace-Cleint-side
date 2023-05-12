@@ -4,6 +4,7 @@ import HomeMiddle from "./HomeMiddle";
 import HeroSection from "./HeroSection";
 import HomeCard from "./HomeCard";
 import NFTSection from "./NFTSection";
+import Creator from "./Creator";
 const Home = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Home = () => {
       <HomeMiddle />
       <HomeCard/>
       <NFTSection/>
+      <Creator/>
     </div>
   );
 };
