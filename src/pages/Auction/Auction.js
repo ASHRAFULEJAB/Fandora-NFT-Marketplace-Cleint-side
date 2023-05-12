@@ -1,9 +1,11 @@
 import React from 'react';
+import Update from './Update';
 
 const Auction = () => {
     return (
         <div>
-            <h1>bvnj</h1>
+            <h1>nb nm</h1>
+           <Update/>
         </div>
     );
 };
