@@ -83,6 +83,15 @@ const Header = () => {
                   Marketplace
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/auction"
+                  aria-label="About us"
+                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-400"
+                >
+                  Auction
+                </Link>
+              </li>
             </ul>
           </div>
           <ul class="flex items-center hidden space-x-8 lg:flex lg:ml-96">
@@ -92,8 +101,9 @@ const Header = () => {
                   <Link
                     to="/login"
                     className="inline-flex items-center 
-                justify-center h-12 px-6 font-medium tracking-wide
-                 text-black transition duration-200 rounded shadow-md bg-gray-200
+                justify-center h-12 px-8 font-medium tracking-wide
+                 text-white transition duration-200 rounded-full shadow-md
+                  bg-gradient-to-r from-[#38A1BB] from-14.72% via-[#38A1BB] via-77.9% to-[#604DBC] to-84.87% ...
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
                     aria-label="Sign up"
                     title="Sign up"
@@ -133,22 +143,35 @@ const Header = () => {
           <div class="lg:hidden">
             <button
               aria-label="Open Menu"
-              class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
+              class="p-2  ml-52 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
               onClick={() => setIsMenuOpen(true)}
             >
-              <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                {" "}
                 <path
-                  fill="currentColor"
-                  d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
-                />
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3 5C3 4.44772 3.44772 4 4 4H16C16.5523 4 17 4.44772 17 5C17 5.55228 16.5523 6 16 6H4C3.44772 6 3 5.55228 3 5Z"
+                  fill="#1ADEBB"
+                />{" "}
                 <path
-                  fill="currentColor"
-                  d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"
-                />
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3 10C3 9.44772 3.44772 9 4 9H16C16.5523 9 17 9.44772 17 10C17 10.5523 16.5523 11 16 11H4C3.44772 11 3 10.5523 3 10Z"
+                  fill="#1ADEBB"
+                />{" "}
                 <path
-                  fill="currentColor"
-                  d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
-                />
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9 15C9 14.4477 9.44772 14 10 14H16C16.5523 14 17 14.4477 17 15C17 15.5523 16.5523 16 16 16H10C9.44772 16 9 15.5523 9 15Z"
+                  fill="#1ADEBB"
+                />{" "}
               </svg>
             </button>
             {isMenuOpen && (
@@ -161,24 +184,7 @@ const Header = () => {
                         aria-label="Company"
                         class="inline-flex items-center"
                       >
-                        {/* <svg
-                          class="w-8 text-purple-400"
-                          viewBox="0 0 24 24"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeMiterlimit="10"
-                          stroke="currentColor"
-                          fill="none"
-                        >
-                          <rect x="3" y="1" width="7" height="12" />
-                          <rect x="3" y="17" width="7" height="6" />
-                          <rect x="14" y="1" width="7" height="6" />
-                          <rect x="14" y="11" width="7" height="12" />
-                        </svg> */}
-                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                          Weero Library
-                        </span>
+                        <img src={logo} className="h-14 lg:h-14" alt="Logo" />
                       </Link>
                     </div>
                     <div>
@@ -200,52 +206,60 @@ const Header = () => {
                     <ul class="space-y-4">
                       <li>
                         <Link
-                          to="/category"
+                          to="/"
                           aria-label="Our product"
                           class="font-medium tracking-wide
                            text-gray-100 transition-colors duration-200 hover:text-purple-400"
                         >
-                          Product
+                          Home
                         </Link>
                       </li>
                       <li>
                         <Link
-                          to="/booking"
+                          to="/features"
                           aria-label="Our product"
                           class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-400"
                         >
-                          Booking
+                          Key Features
                         </Link>
                       </li>
                       <li>
                         <Link
-                          to="/contact"
+                          to="/pre-nft"
                           aria-label="Product pricing"
                           class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-400"
                         >
-                          Contact
+                          Pre-NFT Rights
                         </Link>
                       </li>
                       <li>
                         <Link
-                          to="/about"
+                          to="/marketplace"
                           aria-label="About us"
                           class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-400"
                         >
-                          About
+                          Marketplace
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/auction"
+                          aria-label="About us"
+                          class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-400"
+                        >
+                          Auction
                         </Link>
                       </li>
                       {user?.uid ? (
                         <>
                           <li onClick={handleLogout}>
                             <Link
-                              to="/signin"
+                              to="/login"
                               className="inline-flex items-center 
-                          justify-center w-full h-12 px-6
-                           font-medium tracking-wide text-gray-900
-                            transition duration-200 rounded shadow-md
-                             bg-gray-200 hover:bg-gray-100
-                              focus:shadow-outline focus:outline-none"
+                justify-center h-12 px-8 font-medium tracking-wide
+                 text-white transition duration-200 rounded-full shadow-md
+                  bg-gradient-to-r from-[#38A1BB] from-14.72% via-[#38A1BB] via-77.9% to-[#604DBC] to-84.87% ...
+                  hover:bg-white-100 focus:shadow-outline focus:outline-noneinline-flex w-full"
                               aria-label="Sign up"
                               title="Sign up"
                             >
@@ -259,7 +273,8 @@ const Header = () => {
                             <Link
                               to="/login"
                               aria-label="Sign in"
-                              class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-purple-400"
+                              class="font-medium tracking-wide
+                               text-[#52C1B9] transition-colors duration-200 hover:text-teal-400"
                             >
                               Sign in
                             </Link>
@@ -268,11 +283,10 @@ const Header = () => {
                             <Link
                               to="/register"
                               class="inline-flex items-center 
-                          justify-center w-full h-12 px-6
-                           font-medium tracking-wide text-gray-900
-                            transition duration-200 rounded shadow-md
-                             bg-gray-200 hover:bg-gray-100
-                              focus:shadow-outline focus:outline-none"
+                justify-center h-12 px-8 font-medium tracking-wide
+                 text-white transition duration-200 rounded-full shadow-md
+                  bg-gradient-to-r from-[#38A1BB] from-14.72% via-[#38A1BB] via-77.9% to-[#604DBC] to-84.87% ...
+                  hover:bg-white-100 focus:shadow-outline focus:outline-noneinline-flex w-full "
                               aria-label="Sign up"
                             >
                               Sign up

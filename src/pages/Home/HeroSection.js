@@ -1,29 +1,29 @@
-import React from 'react';
+import React from "react";
 import Banner from "../../assets/images/Hero Image BG.png";
 const HeroSection = () => {
-    return (
-      <div className="relative h-[56.25vw] lg:mb-40 mb-16">
-        <img
-          className="w-full h-[56.25vw] object-cover brightness-[60%] transition duration-500"
-          src={Banner}
-          alt="imgae"
-        ></img>
-        <div className="absolute top-[10%] md:top-[20%] ml-4 md:ml-16">
-          <p
-            className="text-white  uppercase text-1xl md:text-5xl h-full w-[50%] lg:text-8xl 
+  return (
+    <div className="relative h-[56.25vw] lg:mb-40 mb-16">
+      <img
+        className="w-full h-[56.25vw] object-cover brightness-[60%] transition duration-500"
+        src={Banner}
+        alt="imgae"
+      ></img>
+      <div className="absolute top-[30%]  md:top-[20%] ml-4 md:ml-16">
+        <p
+          className="text-white  uppercase text-2xl  sm:mt-6 md:text-5xl h-full w-[50%] lg:text-8xl 
           font-bold drop-shadow-xl"
-          >
-            Calling Creators of the Future
-          </p>
-          <p
-            className="text-[#52C1B9] text-[25px] md:text-lg mt-3 md:mt-8 w-[90%]
+        >
+          Calling Creators of the Future
+        </p>
+        <p
+          className="text-[#52C1B9] lg:text-[25px] md:text-lg mt-10 md:mt-8 w-[90%]
            md:w-[80%] lg:w-[50%] drop-shadow-xl"
-          >
-            The World’s First Pre-NFT Rights <br /> and Content Marketplace
-          </p>
-          <div className="flex flex-row items-center mt-3 md:mt-4 gap-3">
-            <button
-              className="
+        >
+          The World’s First Pre-NFT Rights <br /> and Content Marketplace
+        </p>
+        <div className="lg:flex lg:flex-row items-center mt-3 md:mt-4 gap-3">
+          <button
+            className="
             bg-tarsparent
             text-[#52C1B9]
               bg-opacity-30 
@@ -41,26 +41,27 @@ const HeroSection = () => {
               hover:bg-opacity-20
               transition
             "
-            >
-              NOW LIVE
-            </button>
-          </div>
+          >
+            NOW LIVE
+          </button>
         </div>
-        <div>
-          <h1 className="text-[#52C1B9] font-semibold text-[23px] my-3 lg:ml-36">
-            Know about the launch before everyone else
-          </h1>
-          <div className=" flex">
-            <input
-              type="email"
-              className="bg-[#07070F] 
-               border-[4px] border-[#74B4B3] rounded-full lg:ml-36 py-3 px-32"
-              placeholder="Enter Email Here"
-            />
+      </div>
+      <div className="">
+        <h1 className="text-[#52C1B9] font-semibold lg:text-[23px] my-3 lg:mt-0 mt-16 lg:ml-36">
+          Know about the launch before everyone else
+        </h1>
+        <div className="lg:flex lg:mt-0 mt-2 ">
+          <input
+            type="email"
+            className="bg-[#07070F] 
+               border-[4px] border-[#74B4B3] rounded-full lg:ml-36 py-3 px-20 lg:px-32"
+            placeholder="Enter Email Here"
+          />
+          <div className="flex justify-center items-center">
             <button
               to="/register"
-              class="inline-flex items-center 
-                justify-center ml-3 h-12 px-12 font-medium tracking-wide
+              class="lg:inline-flex items-center 
+                justify-center lg:ml-3 h-12 lg:mt-0 mt-3 px-12 font-medium tracking-wide
                  text-white transition duration-200 rounded-full shadow-md
                   bg-gradient-to-r from-[#38A1BB] from-14.72% via-[#38A1BB] via-77.9% to-[#604DBC] 
                   to-84.87% ...
@@ -70,7 +71,7 @@ const HeroSection = () => {
               Sign up
             </button>
             {/* Social Media */}
-            <div class="flex items-center gap-3 sm:gap-x-5 ml-2 lg:ml-20">
+            <div class="lg:flex items-center gap-3 sm:gap-x-5 ml-2 lg:ml-20">
               {/* GOOGle */}
               <button
                 class="bg-white dark:bg-gradient-to-r 
@@ -163,7 +164,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    );
+    </div>
+  );
 };
 
 export default HeroSection;

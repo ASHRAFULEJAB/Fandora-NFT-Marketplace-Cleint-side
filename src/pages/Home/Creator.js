@@ -9,10 +9,10 @@ const Creator = () => {
       to-[#8EC0D7] to-11.96%"
     >
       {/* creator section */}
-      <div className="lg:flex lg:mx-24">
+      <div className="lg:flex lg:mx-24 lg:ml-0 ml-6">
         <img src={phoneMockup} alt="" className="lg:h-42 lg:w-42" />
         <div className="text-[#FFFFFF] mt-10 lg:ml-12">
-          <p className="text-[16px] font-semibold uppercase">
+          <p className="lg:text-[16px] font-semibold uppercase">
             NFT rights Marketplace
           </p>
           <h1 className="text-[36px] font-bold mt-3">Are you a Creator?</h1>
@@ -34,7 +34,7 @@ const Creator = () => {
         </div>
       </div>
       {/* Web3 pro section */}
-      <div className="lg:flex lg:mx-22">
+      <div className="lg:flex  lg:mx-22 lg:ml-0 ml-6">
         <div className="text-[#FFFFFF] mt-10 lg:ml-32">
           <p className="text-[16px] font-semibold uppercase">
             NFT rights Marketplace

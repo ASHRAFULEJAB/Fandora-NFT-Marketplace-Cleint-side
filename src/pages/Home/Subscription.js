@@ -4,18 +4,18 @@ import tgn1 from "../../assets/images/TGN_5 1.png";
 
 const Subscription = () => {
   return (
-    <div className="bg-[#1B1B1D] rounded-b-3xl relative pb-20">
+    <div className="bg-[#1B1B1D] rounded-b-3xl relative lg:pb-20">
       {/* Make money for everybody */}
-      <div className="lg:flex lg:mx-24">
-        <img src={tgn2} alt="" className="lg:h-42 lg:w-42 mt-16" />
+      <div className="lg:flex lg:mx-24 lg:ml-0 ml-6">
+        <img src={tgn2} alt="" className="lg:h-42 lg:w-42 lg:mt-16" />
         <div className="text-[#FFFFFF] mt-40 lg:ml-20">
-          <p className="text-[16px] font-semibold uppercase">
+          <p className="lg:text-[16px] text-2xl font-semibold uppercase">
             Tokenised Crowdfunding
           </p>
-          <h1 className="text-[36px] font-bold mt-3 text-[#538EB6]">
+          <h1 className="lg:text-[36px] font-bold mt-3 text-[#538EB6]">
             Create content. <br /> Make money for everybody.
           </h1>
-          <p className="text-[18px] mt-3 text-gray-400">
+          <p className="lg:text-[18px] mt-3 text-gray-400">
             With Fandora you can enable your loyal fanbase to bid <br /> for a
             share of the revenue from your next product or <br /> content
             offering to be launched over a stipulated time <br />
@@ -53,14 +53,14 @@ const Subscription = () => {
       </div>
       {/* subscription platform */}
       <div className="lg:flex lg:mx-22">
-        <div className="text-[#FFFFFF] mt-10 lg:ml-32">
-          <p className="text-[16px] font-semibold uppercase">
+        <div className="text-[#FFFFFF] mt-10 lg:ml-32  ml-6">
+          <p className="lg: text-[16px] text-2xl font-semibold uppercase">
             Talent content platform
           </p>
-          <h1 className="text-[36px] font-bold mt-3 text-[#538EB6]">
+          <h1 className="lg:text-[36px] font-bold mt-3 text-[#538EB6]">
             Build your custom <br /> subscription platform
           </h1>
-          <p className="text-[18px] mt-3 text-gray-400">
+          <p className="lg:text-[18px] mt-3 text-gray-400">
             Build your custom subscription platform <br /> Create your own
             content and subscription engine and <br /> have direct control of
             audience revenues. Fandora gives <br /> you access to

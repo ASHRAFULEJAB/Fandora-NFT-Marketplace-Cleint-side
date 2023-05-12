@@ -3,8 +3,8 @@ import NFTCard from "./NFTCard";
 
 const NFTSection = () => {
   return (
-    <div className="bg-[#EFEDF5] rounded-t-3xl">
-      <h1 className="text-center text-[90px] font-semibold text-[#222125] uppercase">
+    <div className="bg-[#EFEDF5] rounded-t-3xl lg:mt-0 mt-48">
+      <h1 className="text-center text-[40px] lg:text-[90px] font-semibold text-[#222125] uppercase">
         Welcome to the Future <br />{" "}
         <span
           className="text-transparent bg-clip-text 

@@ -6,6 +6,7 @@ import NftRights from "../pages/NFT/NftRights";
 import MarketPlace from "../pages/MarketPlace/MarketPlace";
 import SignIn from "../pages/SignIn/SignIn";
 import SignUp from "../pages/SignUp/SignUp";
+import Auction from "../pages/Auction/Auction";
 
 const router = createBrowserRouter([
   {
@@ -29,10 +30,10 @@ const router = createBrowserRouter([
         path: "/marketplace",
         element: <MarketPlace />,
       },
-      // {
-      //   path: "/about",
-      //   element: <About />,
-      // },
+      {
+        path: "/auction",
+        element: <Auction />,
+      },
       {
         path: "/login",
         element: <SignIn />,

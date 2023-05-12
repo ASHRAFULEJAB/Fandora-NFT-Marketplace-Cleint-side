@@ -12,9 +12,9 @@ const HomeCard = () => {
         <img
           src={simplicity}
           alt=""
-          className="items-center  justify-center  lg:w-90 h-20 lg:ml-80 ml-3"
+          className="items-center  justify-center  lg:w-90 lg:h-20 lg:ml-80 ml-2"
         />
-        <h1 className="text-white text-[25px] ml-6 lg:ml-56">
+        <h1 className="text-white lg:text-[25px] ml-6 lg:ml-56">
           We take care of everything so the artists can focus on what they do
           best. Create art.
         </h1>
