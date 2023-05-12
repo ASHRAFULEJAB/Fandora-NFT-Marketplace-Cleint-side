@@ -4,7 +4,7 @@ import logo from "../../assets/FANDORA LOGO.png";
 
 const Footer = () => {
   return (
-    <footer class="bg-white dark:bg-transparent lg:mx-10">
+    <footer class="bg-white dark:bg-transparent lg:mx-10 mt-32">
       <div class="container p-6 mx-auto">
         <div class="lg:flex">
           <div class="w-full -mx-6 lg:w-2/5">

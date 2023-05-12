@@ -5,6 +5,8 @@ import HeroSection from "./HeroSection";
 import HomeCard from "./HomeCard";
 import NFTSection from "./NFTSection";
 import Creator from "./Creator";
+import Subscription from "./Subscription";
+import Discover from "./Discover";
 const Home = () => {
   return (
     <div>
@@ -13,6 +15,8 @@ const Home = () => {
       <HomeCard/>
       <NFTSection/>
       <Creator/>
+      <Subscription/>
+      <Discover/>
     </div>
   );
 };
