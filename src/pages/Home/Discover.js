@@ -28,7 +28,7 @@ const Discover = () => {
           </button>
         </div>
         <div className="flex lg:ml-6 relative">
-          <img src={unamed1} alt="" className="w-[241px] h-[294px] absolute top-14" />
+          <img src={unamed1} alt="" className="w-[241px] h-[294px] absolute top-24" />
           <img src={unamed2} alt="" className="w-[241px] h-[294px] relative left-64 bottom-16" />
         </div>
       </div>
