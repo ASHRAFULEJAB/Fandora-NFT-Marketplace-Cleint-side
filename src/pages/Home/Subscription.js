@@ -6,7 +6,7 @@ const Subscription = () => {
   return (
     <div className="bg-[#1B1B1D] rounded-b-3xl relative lg:pb-20">
       {/* Make money for everybody */}
-      <div className="lg:flex lg:mx-24 lg:ml-0 ml-6">
+      <div className="lg:flex lg:mx-24 lg:ml-8 ml-6">
         <img src={tgn2} alt="" className="lg:h-42 lg:w-42 lg:mt-16" />
         <div className="text-[#FFFFFF] mt-40 lg:ml-20">
           <p className="lg:text-[16px] text-2xl font-semibold uppercase">
