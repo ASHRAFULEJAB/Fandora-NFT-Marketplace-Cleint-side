@@ -4,6 +4,7 @@ import medel from "../../assets/images/Medal.png";
 import token from "../../assets/images/Token.png";
 import wallet from "../../assets/images/Wallet.png";
 import content from "../../assets/images/Like.png";
+import shoppingBag from "../../assets/images/Shopping bag.png";
 
 const HomeCard = () => {
   return (
@@ -170,6 +171,11 @@ const HomeCard = () => {
                 class="flex flex-col items-center p-4 border sm:p-6 rounded-[50px] w-[286px] h-[396px]
                dark:border-gray-700 bg-[#222125] "
               >
+                <img
+                  class="  absolute h-28 w-28 left-20 -top-10 "
+                  src={shoppingBag}
+                  alt=""
+                />
                 <div className="mt-12 text-center">
                   <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">
                     NFT Marketplace

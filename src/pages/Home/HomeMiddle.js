@@ -6,15 +6,15 @@ import image4 from "../../assets/images/unnamed 3.png";
 const HomeMiddle = () => {
   return (
     <div
-      className=" lg:mt-0 mt-64 mx-10 lg:mx-36 rounded-2xl 
-      bg-gradient-to-r from-[#15E8BA] from-98.51%  to-[#604DBC] to-1.49% lg:p-6"
+      className=" lg:mt-6 mt-64 mx-10 lg:mx-36 rounded-2xl 
+      bg-gradient-to-r from-[#15E8BA] from-98.51%  to-[#604DBC] to-1.49% lg:p-3"
     >
       <div className="lg:flex">
         <div className=" lg:ml-20">
-          <h1 className="lg:text-[35px] text-2xl lg:ml-0 ml-10 lg:mt-0 mt-12 font font-bold">
+          <h1 className="lg:text-[35px] text-2xl lg:ml-0 ml-10 lg:mt-10 mt-12 font font-bold">
             Pre-NFT Content and <br /> Rights Marketplace{" "}
           </h1>
-          <p className="text-wrap lg:text-[23px] lg:ml-0 ml-10 font-medium">
+          <p className="text-wrap lg:text-[23px] lg:ml-0 ml-10 mt-3 font-medium">
             A first of its kind platform that <br /> discovers and supports
             global talent <br /> across multiple domains, now live!{" "}
           </p>

@@ -44,7 +44,7 @@ const Header = () => {
               aria-label="Company"
               class="inline-flex items-center mr-8"
             >
-              <img src={logo} className="h-4 lg:h-14" alt="Logo" />
+              <img src={logo} className="h-14 lg:h-14" alt="Logo" />
             </Link>
             <ul class="flex items-center hidden space-x-8 lg:flex lg:ml-10 justify-between">
               <li>

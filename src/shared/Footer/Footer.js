@@ -10,12 +10,12 @@ const Footer = () => {
           <div class="w-full -mx-6 lg:w-2/5">
             <div class="px-6">
               <Link to="/">
-                <img class="w-auto h-16" src={logo} alt="" />
+                <img class="w-auto h-16 lg:ml-0 ml-10" src={logo} alt="" />
               </Link>
             </div>
           </div>
 
-          <div class="mt-6 lg:mt-0 lg:flex-1">
+          <div class="mt-6 lg:mt-0 lg:flex-1 lg:ml-0 ml-28">
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <div>
                 <h3 class="text-gray-700 uppercase dark:text-white">Home</h3>
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <hr class="h-px w-full my-6 bg-gray-200 border-none dark:bg-gray-700" />
 
-        <div className="lg:flex ">
+        <div className="lg:flex lg:ml-0 ml-20">
           <div class="flex mt-6 -mx-2">
             {/* Tweitter */}
             <Link
@@ -150,7 +150,7 @@ const Footer = () => {
               </svg>
             </Link>
           </div>
-          <div className=" lg:flex justify-between">
+          <div className=" lg:flex justify-between ">
             <p class="max-w-sm  lg:ml-4 mt-5 text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
               reachus@fandora.app
             </p>
@@ -166,7 +166,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="lg:flex mt-3">
+        <div className="lg:flex mt-3 lg:ml-0 ml-20">
           <p class=" text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
             Designed by @indiecreatorsco
           </p>

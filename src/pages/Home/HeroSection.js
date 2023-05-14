@@ -21,7 +21,7 @@ const HeroSection = () => {
         >
           The World’s First Pre-NFT Rights <br /> and Content Marketplace
         </p>
-        <div className="lg:flex lg:flex-row items-center mt-3 md:mt-4 gap-3">
+        <div className="lg:flex lg:flex-row items-center mt-3 md:mt-4 gap-3 mb-6 lg:mb-0">
           <button
             className="
             bg-tarsparent
@@ -40,6 +40,7 @@ const HeroSection = () => {
               items-center
               hover:bg-opacity-20
               transition
+              
             "
           >
             NOW LIVE
@@ -47,7 +48,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="">
-        <h1 className="text-[#52C1B9] font-semibold lg:text-[23px] my-3 lg:mt-0 mt-16 lg:ml-36">
+        <h1 className="text-[#52C1B9] font-semibold lg:text-[23px] my-3 lg:mt-0 mt-16 ml-3 lg:ml-36">
           Know about the launch before everyone else
         </h1>
         <div className="lg:flex lg:mt-0 mt-2 ">

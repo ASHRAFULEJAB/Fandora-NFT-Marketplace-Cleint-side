@@ -8,7 +8,7 @@ const Subscription = () => {
       {/* Make money for everybody */}
       <div className="lg:flex lg:mx-24 lg:ml-8 ml-6">
         <img src={tgn2} alt="" className="lg:h-42 lg:w-42 lg:mt-16" />
-        <div className="text-[#FFFFFF] mt-40 lg:ml-20">
+        <div className="text-[#FFFFFF] lg:mt-40 mt-10 lg:ml-20">
           <p className="lg:text-[16px] text-2xl font-semibold uppercase">
             Tokenised Crowdfunding
           </p>
@@ -25,14 +25,15 @@ const Subscription = () => {
           <button
             to="/register"
             class="inline-flex items-center 
-                justify-center ml-3  mt-6 h-[71px] w-[338px] px-6 font-medium tracking-wide
+                justify-center ml-3   mt-6 h-[71px] w-[338px] px-6 font-medium tracking-wide
                  text-white transition duration-200 rounded-full shadow-md text-[16px]
                   bg-gradient-to-r from-[#38A1BB] from-84.87% via-[#38A1BB] via-77.9% 
       to-[#604DBC] to-14.72%
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
             aria-label="Sign up"
           >
-            JOIN THE CONVERSATION
+            <span className="mr-6">JOIN THE CONVERSATION</span>
+
             <svg
               className="ml-8"
               xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +78,7 @@ const Subscription = () => {
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
             aria-label="Sign up"
           >
-            JOIN THE CONVERSATION
+            <span className="mr-6">JOIN THE CONVERSATION</span>
             <svg
               className="ml-8"
               xmlns="http://www.w3.org/2000/svg"
