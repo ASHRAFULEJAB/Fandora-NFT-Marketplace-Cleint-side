@@ -27,7 +27,7 @@ const NFTCollection = () => {
           <div className="lg:flex lg:mt-2 mt-2 ">
             <input
               type="text"
-              className="bg-[#07070F] 
+              className="bg-[#07070F] text-white
                border-[4px] border-[#52C1B9] rounded-full lg:ml-36 py-3 px-20 lg:px-72"
               placeholder="Browse through 1000+ metaverse avataars, digital art, social media posts and more...  "
             />

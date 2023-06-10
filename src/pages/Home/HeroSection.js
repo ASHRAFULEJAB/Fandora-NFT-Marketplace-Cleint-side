@@ -1,5 +1,7 @@
 import React from "react";
 import Banner from "../../assets/images/Hero Image BG.png";
+import { Link } from "react-router-dom";
+import { toast } from "react-hot-toast";
 const HeroSection = () => {
   return (
     <div className="relative h-[56.25vw] lg:mb-40 mb-16">
@@ -23,6 +25,11 @@ const HeroSection = () => {
         </p>
         <div className="lg:flex lg:flex-row items-center mt-3 md:mt-4 gap-3 mb-6 lg:mb-0">
           <button
+            onClick={() => {
+              toast.success(
+                "Live Streaming will be started in a miniute !!Please Wait...."
+              );
+            }}
             className="
             bg-tarsparent
             text-[#52C1B9]
@@ -55,22 +62,23 @@ const HeroSection = () => {
           <input
             type="email"
             className="bg-[#07070F] 
-               border-[4px] border-[#74B4B3] rounded-full lg:ml-36 py-3 px-20 lg:px-32"
+               border-[4px] border-[#74B4B3] rounded-full lg:ml-36 py-3 px-20 lg:px-32 text-white"
             placeholder="Enter Email Here"
           />
           <div className="flex justify-center items-center">
-            <button
-              to="/register"
-              class="lg:inline-flex items-center 
+            <Link to="/register">
+              <button
+                class="lg:inline-flex items-center 
                 justify-center lg:ml-3 h-12 lg:mt-0 mt-3 px-12 font-medium tracking-wide
                  text-white transition duration-200 rounded-full shadow-md
                   bg-gradient-to-r from-[#38A1BB] from-14.72% via-[#38A1BB] via-77.9% to-[#604DBC] 
                   to-84.87% ...
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
-              aria-label="Sign up"
-            >
-              Sign up
-            </button>
+                aria-label="Sign up"
+              >
+                Sign up
+              </button>
+            </Link>
             {/* Social Media */}
             <div class="lg:flex items-center gap-3 sm:gap-x-5 ml-2 lg:ml-20">
               {/* GOOGle */}

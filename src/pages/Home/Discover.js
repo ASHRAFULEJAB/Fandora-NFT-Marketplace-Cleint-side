@@ -1,6 +1,7 @@
 import React from "react";
 import unamed1 from "../../assets/images/unnamed 1.png";
 import unamed2 from "../../assets/images/unnamed 2.png";
+import { Link } from "react-router-dom";
 
 const Discover = () => {
   return (
@@ -14,18 +15,19 @@ const Discover = () => {
             Join fandora and support outstanding global <br /> talent across
             multiple domains.
           </p>
-          <button
-            to="/register"
-            class="inline-flex items-center 
+          <Link to="/register">
+            <button
+              class="inline-flex items-center 
                 justify-center ml-3  lg:mt-6 mt-3 lg:mb-0 mb-10 lg:h-[71px] h-[64px] lg:w-[209px] px-6 font-medium tracking-wide
                  text-white transition duration-200 rounded-full shadow-md text-[16px]
                   bg-gradient-to-r from-[#38A1BB] from-84.87% via-[#38A1BB] via-77.9% 
       to-[#604DBC] to-14.72%
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
-            aria-label="Sign up"
-          >
-            JOIN FANDORA
-          </button>
+              aria-label="Sign up"
+            >
+              JOIN FANDORA
+            </button>
+          </Link>
         </div>
         <div className="flex lg:ml-6 relative">
           <img

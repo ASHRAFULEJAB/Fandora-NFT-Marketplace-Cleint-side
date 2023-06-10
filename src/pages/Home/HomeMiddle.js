@@ -3,6 +3,7 @@ import image1 from "../../assets/images/Image 3.png";
 import image2 from "../../assets/images/unnamed 2.png";
 import image3 from "../../assets/images/image 2.png";
 import image4 from "../../assets/images/unnamed 3.png";
+import { toast } from "react-hot-toast";
 const HomeMiddle = () => {
   return (
     <div
@@ -19,6 +20,11 @@ const HomeMiddle = () => {
             global talent <br /> across multiple domains, now live!{" "}
           </p>
           <button
+            onClick={() => {
+              toast.success(
+                "Your Checkout is succesfull!!Please a Go to the TOP Collection section for more update!!Thank You??"
+              );
+            }}
             to="/register"
             class="inline-flex items-center 
                 justify-center lg:ml-3 ml-10 lg:mb-0 mb-6  mt-3 h-12 px-10 font-medium tracking-wide

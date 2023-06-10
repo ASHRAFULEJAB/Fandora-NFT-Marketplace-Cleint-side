@@ -1,6 +1,7 @@
 import React from "react";
 import tgn2 from "../../assets/images/TGN_4 2.png";
 import tgn1 from "../../assets/images/TGN_5 1.png";
+import { toast } from "react-hot-toast";
 
 const Subscription = () => {
   return (
@@ -23,6 +24,9 @@ const Subscription = () => {
             invested in you and your work, literally and figuratively.
           </p>
           <button
+            onClick={() => {
+              toast.success("YAY!!You have Joined Succesfully");
+            }}
             to="/register"
             class="inline-flex items-center 
                 justify-center ml-3   mt-6 h-[71px] w-[338px] px-6 font-medium tracking-wide
@@ -69,6 +73,9 @@ const Subscription = () => {
             to raise subscriptions as well as mint <br /> NFTs
           </p>
           <button
+            onClick={() => {
+              toast.success("YAY!!You have Joined Succesfully");
+            }}
             to="/register"
             class="inline-flex items-center 
                 justify-center ml-3  mt-6 h-[71px] w-[338px] px-6 font-medium tracking-wide

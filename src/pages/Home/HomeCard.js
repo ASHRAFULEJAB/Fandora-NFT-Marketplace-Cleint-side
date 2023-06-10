@@ -5,6 +5,7 @@ import token from "../../assets/images/Token.png";
 import wallet from "../../assets/images/Wallet.png";
 import content from "../../assets/images/Like.png";
 import shoppingBag from "../../assets/images/Shopping bag.png";
+import { Link } from "react-router-dom";
 
 const HomeCard = () => {
   return (
@@ -51,17 +52,18 @@ const HomeCard = () => {
                     and pay you as well as share royalties.
                   </p>
                 </div>
-                <button
-                  to="/register"
-                  class="inline-flex items-center 
+                <Link to="/pre-nft">
+                  <button
+                    class="inline-flex items-center 
                 justify-center ml-3  mt-14 h-12 w-[213px] px-6 font-medium tracking-wide
                  text-[#00CDAC] transition duration-200 rounded-full shadow-md
                   bg-[#2E2D32]
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
-                  aria-label="Sign up"
-                >
-                  Beta Launch Dec 13
-                </button>
+                    aria-label="Sign up"
+                  >
+                    Beta Launch Dec 13
+                  </button>
+                </Link>
               </div>
             </div>
             <div class="  mt-8 xl:mt-16  relative">
@@ -85,17 +87,18 @@ const HomeCard = () => {
                     reward supporters that want to join on their journey.
                   </p>
                 </div>
-                <button
-                  to="/register"
-                  class="inline-flex items-center 
+                <Link to="/auction">
+                  <button
+                    class="inline-flex items-center 
                 justify-center ml-3  mt-14 h-12 w-[177px] px-6 font-medium tracking-wide
                  text-[#8E79F3] transition duration-200 rounded-full shadow-md
                   bg-[#2E2D32]
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
-                  aria-label="Sign up"
-                >
-                  Coming Soon
-                </button>
+                    aria-label="Sign up"
+                  >
+                    Coming Soon
+                  </button>
+                </Link>
               </div>
             </div>
             <div class="  mt-8 xl:mt-16  relative">
@@ -119,17 +122,18 @@ const HomeCard = () => {
                     improve the quality of their content.
                   </p>
                 </div>
-                <button
-                  to="/register"
-                  class="inline-flex items-center 
+                <Link to="/auction">
+                  <button
+                    class="inline-flex items-center 
                 justify-center ml-3  mt-6 h-12 w-[177px] px-6 font-medium tracking-wide
                  text-[#8E79F3] transition duration-200 rounded-full shadow-md
                   bg-[#2E2D32]
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
-                  aria-label="Sign up"
-                >
-                  Coming Soon
-                </button>
+                    aria-label="Sign up"
+                  >
+                    Coming Soon
+                  </button>
+                </Link>
               </div>
             </div>
             <div class=" lg:ml-32 mt-8 xl:mt-16  relative">
@@ -153,17 +157,18 @@ const HomeCard = () => {
                     control of audience revenues.
                   </p>
                 </div>
-                <button
-                  to="/register"
-                  class="inline-flex items-center 
+                <Link to="/auction">
+                  <button
+                    class="inline-flex items-center 
                 justify-center ml-3  mt-12 h-12 w-[177px] px-6 font-medium tracking-wide
                  text-[#8E79F3] transition duration-200 rounded-full shadow-md
                   bg-[#2E2D32]
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
-                  aria-label="Sign up"
-                >
-                  Coming Soon
-                </button>
+                    aria-label="Sign up"
+                  >
+                    Coming Soon
+                  </button>
+                </Link>
               </div>
             </div>
             <div class=" lg:ml-32 mt-8 xl:mt-16  relative">
@@ -186,17 +191,18 @@ const HomeCard = () => {
                     right holders to create and sell licensed NFTs.
                   </p>
                 </div>
-                <button
-                  to="/register"
-                  class="inline-flex items-center 
+                <Link to="/marketplace">
+                  <button
+                    class="inline-flex items-center 
                 justify-center ml-3  mt-14 h-12 w-[213px] px-6 font-medium tracking-wide
                  text-[#00CDAC] transition duration-200 rounded-full shadow-md
                   bg-[#2E2D32]
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
-                  aria-label="Sign up"
-                >
-                  Beta Launch Dec 13
-                </button>
+                    aria-label="Sign up"
+                  >
+                    Beta Launch Dec 13
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

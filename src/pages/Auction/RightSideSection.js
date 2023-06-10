@@ -1,6 +1,6 @@
 import React from "react";
 import vector from "../../assets/images/Vector 45.png";
-
+import { toast } from "react-hot-toast";
 
 const RightSideSection = () => {
   return (
@@ -39,6 +39,11 @@ const RightSideSection = () => {
             15.89 ETH <span className="text-gray-400 text-xs">$111,111.11</span>
           </p>
           <button
+            onClick={() => {
+              toast.success(
+                "Your have successfully Buy the Product!!Thank you for choosing US!!"
+              );
+            }}
             to="/register"
             class="inline-flex items-center 
                 justify-center lg:h-[74px] lg:w-[200px] px-8 font-medium tracking-wide
@@ -50,6 +55,9 @@ const RightSideSection = () => {
             BUY NOW
           </button>
           <button
+            onClick={() => {
+              toast.error("Your Offer will be visible soon!!Please Waitt..!!");
+            }}
             to="/register"
             class="inline-flex items-center 
                 justify-center ml-3 mb-12  mt-3 lg:h-[74px] lg:w-[200px] px-6 font-medium tracking-wide

@@ -51,7 +51,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <Link to="/">
+                <Link to="/pre-nft">
                   <button
                     class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide
                  text-white capitalize transition-colors duration-300 transform

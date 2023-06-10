@@ -1,6 +1,8 @@
 import React from "react";
 import phoneMockup from "../../assets/images/Phone mockup 2.png";
 import tableMockup from "../../assets/images/Tablet Mockup 1.png";
+import { Link } from "react-router-dom";
+import { toast } from "react-hot-toast";
 
 const Creator = () => {
   return (
@@ -21,6 +23,11 @@ const Creator = () => {
             for Web3 applications
           </p>
           <button
+            onClick={() => {
+              toast.error(
+                "Your Checkout is under processing!!Please a little Bit??"
+              );
+            }}
             to="/register"
             class="inline-flex items-center 
                 justify-center ml-3  mt-3 h-[74px] w-[220px] px-6 font-medium tracking-wide
@@ -45,6 +52,11 @@ const Creator = () => {
             package them with our <br /> advanced NFT Utilities
           </p>
           <button
+            onClick={() => {
+              toast.error(
+                "Your Checkout is under processing!!Please a little Bit??"
+              );
+            }}
             to="/register"
             class="inline-flex items-center 
                 justify-center ml-3  mt-3 h-[74px] w-[220px] px-6 font-medium tracking-wide
@@ -70,17 +82,18 @@ const Creator = () => {
           Our homegrown NFT marketplace allows creators and pre NFT rights
           holders to create and sell officially licensed NFTs
         </p>
-        <button
-          to="/register"
-          class="inline-flex items-center 
+        <Link to="/marketplace">
+          <button
+            class="inline-flex items-center 
                 justify-center ml-3 mb-12  mt-3 h-[74px] w-[220px] px-6 font-medium tracking-wide
                  text-white transition duration-200 rounded-full shadow-md
                   bg-[#606060]
                   hover:bg-white-100 focus:shadow-outline focus:outline-none"
-          aria-label="Sign up"
-        >
-          COMING SOON
-        </button>
+            aria-label="Sign up"
+          >
+            COMING SOON
+          </button>
+        </Link>
       </div>
     </div>
   );

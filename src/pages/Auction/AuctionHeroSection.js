@@ -3,6 +3,7 @@ import cardoutline from '../../assets/images/Card Outline.png'
 import graphy2 from '../../assets/images/giphy 2.png'
 import rectengle from '../../assets/images/Rectangle 4366.png'
 import RightSideSection from './RightSideSection';
+import { toast } from 'react-hot-toast';
 
 const AuctionHeroSection = () => {
     return (
@@ -46,6 +47,9 @@ const AuctionHeroSection = () => {
               />
 
               <button
+              onClick={()=>{
+                toast.success("Your Query has been submitted!Thank You..")
+              }}
                 to="/register"
                 class="lg:inline-flex items-center 
                 justify-center  h-14 w-[223px] lg:mb-0 mb-3 lg:mt-0 mt-3 px-12 font-medium tracking-wide
