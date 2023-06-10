@@ -7,11 +7,13 @@ import NFTSection from "./NFTSection";
 import Creator from "./Creator";
 import Subscription from "./Subscription";
 import Discover from "./Discover";
+import NFTCollection from "./NFTCollection";
 const Home = () => {
   return (
     <div>
       <HeroSection />
       <HomeMiddle />
+      <NFTCollection/>
       <HomeCard/>
       <NFTSection/>
       <Creator/>
