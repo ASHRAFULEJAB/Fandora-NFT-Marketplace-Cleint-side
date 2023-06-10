@@ -161,7 +161,7 @@ const Footer = () => {
               Terms of use
             </p>
             <p class="max-w-sm lg:ml-52    mt-5 text-gray-500 dark:text-[rgba(254, 254, 254, 0.4)]">
-              © Fandora 2022 - All rights reserved
+              © Fandora 2023-24 - All rights reserved
             </p>
           </div>
         </div>
